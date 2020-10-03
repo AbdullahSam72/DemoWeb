@@ -106,7 +106,9 @@ header,
   margin-right: 15%;
   margin-top: 15px;
 }
-
+#main-content1 {
+  background-color: whitesmoke;
+}
 @media (max-width: 575.98px) {
   header,
   #main-content1,
@@ -190,12 +192,14 @@ footer h5 {
   position: absolute;
   float: right;
 
-  right: -10%;
+  margin-right: 0%;
+  right: 0px;
   margin-top: 15px;
 }
 #main-Image img {
   height: 600px;
-  width: 80%;
+  width: 285px;
+  z-index: -1;
 }
 @media (max-width: 575.98px) {
   #IndexPart2,
