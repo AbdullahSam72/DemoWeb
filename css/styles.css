@@ -186,7 +186,17 @@ footer h5 {
   padding: 0px;
   color: black;
 }
+#main-Image {
+  position: absolute;
+  float: right;
 
+  right: -10%;
+  margin-top: 15px;
+}
+#main-Image img {
+  height: 600px;
+  width: 80%;
+}
 @media (max-width: 575.98px) {
   #IndexPart2,
   #IndexPart3,
